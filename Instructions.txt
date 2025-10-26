@@ -1,0 +1,35 @@
+Endostellar Online
+
+----SETUP----
+
+--Server--
+*Install Zerotier One
+	*For Chrome OS install via google play store
+*Connect to network ID : 65228d8d6d2afb9d
+*Contact me to be authenticated on the vpn network
+
+--Game--
+*For Chrome OS:
+	*Activate linux environment in settings
+	*Install git by executing "sudo apt install git" in terminal
+	*Download "eso_setup.sh" script from "github.com/bendo64/eso/tree/main/linux_scripts" and paste it into your "Linux files" folder in the files app
+	*Execute the following command in the linux terminal:
+		sudo chmod +x eso_setup.sh
+	*Execute "sudo ./eso_setup.sh" to install eso
+	
+	
+*For Windows:
+	*Grab .exe file from "github.com/bendo64/endostellar_online/tree/main/Windows releases"
+	
+	
+----STARTING GAME----
+
+--Connect to server--
+*Boot up Zerotier and connect to the endostellar.net vpn
+
+--Start game--
+*For Chrome OS:
+	*Open up the terminal
+	*Start the game using "./eso/run.sh" 
+*For Windows:
+	*Run .exe file
