@@ -6,6 +6,7 @@ Endostellar Online
 *Install Zerotier One
 	*For Chrome OS install via google play store
 *Connect to network ID : 65228d8d6d2afb9d
+	*For windows : Find zerotier in bottom right corner by clicking on the "^" symbol and right clicking the zerotier icon
 *Contact me to be authenticated on the vpn network
 
 --Game--
@@ -20,6 +21,11 @@ Endostellar Online
 	
 *For Windows:
 	*Grab .exe file from "github.com/bendo64/endostellar_online/tree/main/Windows releases"
+	
+	*Alternatively install git on windows, open up a git terminal
+	*Enter "git clone https://github.com/bendo64/eso.git"
+	*Locate "eso" folder to access latest exe version in Windows Releases folder, and use the update.bat script to auto update
+
 	
 	
 ----STARTING GAME----
