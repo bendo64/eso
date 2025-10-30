@@ -3,7 +3,7 @@
 # Configuration
 REPO_URL="https://github.com/bendo64/eso.git"
 BASE_DIR="eso"
-REPO_DIR="$BASE_DIR/repo"
+REPO_DIR="$BASE_DIR"
 EXECUTABLE="linux_releases/Endostellar_O.x86_64"
 
 # Create base directory if it doesn't exist
@@ -12,9 +12,8 @@ mkdir -p "$BASE_DIR"
 cd "$BASE_DIR" || { echo "Failed to enter $BASE_DIR"; exit 1; }
 
 # Clone or pull the repo
-if [ -d "$REPO_DIR/.git" ]; then
+if [ -d "linux_scripts" ]; then
     echo "Repository already exists. Pulling latest changes..."
-    cd "$REPO_DIR" || exit 1
     git pull --rebase
 else
     echo "Cloning repository..."
