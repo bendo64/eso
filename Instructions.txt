@@ -37,5 +37,7 @@ Endostellar Online
 *For Chrome OS:
 	*Open up the terminal
 	*Start the game using "./eso/run.sh" 
+	*Update using "sudo ./eso/update.sh"
 *For Windows:
 	*Run .exe file
+	*Update using update.bat file

@@ -18,7 +18,6 @@ if [ -d "linux_scripts" ]; then
 else
     echo "Cloning repository..."
     git clone "$REPO_URL" repo || { echo "Clone failed!"; exit 1; }
-    cd "$REPO_DIR" || exit 1
 fi
 
 # Make the game executable (path with spaces needs quotes)
